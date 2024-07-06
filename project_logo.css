@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.mani{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 200px;
+    width: 350px;
+    animation-name: mani1;
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    opacity: 1;
+    transform: scale(1.5);
+}
+@keyframes mani1{
+    from{
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    to{
+        transform: scale(1.5);
+        opacity: 1;
+    }
+}
